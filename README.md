@@ -23,22 +23,11 @@ The model is trained on **Apple Inc. (AAPL)** stock data retrieved from **Yahoo 
 
 ---
 
-## 🧩 Project Workflow  
+## Model Performance (Test set)
 
-```mermaid
-flowchart TD
-    A[Data Collection] --> B[Data Preprocessing]
-    B --> C[Sequence Creation]
-    C --> D[Train-Test Split]
-    D --> E[LSTM Model Design]
-    E --> F[Model Training]
-    F --> G[Prediction]
-    G --> H[Model Evaluation]
-    H --> I[Result Visualization]
-
-| Metric                             |  Value |
-| :--------------------------------- | :----: |
-| **Mean Squared Error (MSE)**       | 9.9035 |
-| **Root Mean Squared Error (RMSE)** | 3.1470 |
-| **Mean Absolute Error (MAE)**      | 1.7879 |
-| **R² Score**                       | 0.9968 |
+| Metric | Value |
+|:------:|:-----:|
+| Mean Squared Error (MSE) | 9.9035 |
+| Root Mean Squared Error (RMSE) | 3.1470 |
+| Mean Absolute Error (MAE) | 1.7879 |
+| R² Score | 0.9968 |
